@@ -9,7 +9,22 @@ const routes = [
     component: () => import('../layouts/mainLayout.vue'),
     children: [
       { path: '', component: () => import('../views/StartPage.vue') },
-      { path: 'cube', component: () => import('../views/Samples/Cube.vue') },
+    ],
+  },
+  {
+    path: '/vtk',
+    component: () => import('../layouts/vtkLayout.vue'),
+    children: [
+      { path: '', component: () => import('../views/StartPage.vue') },
+      { path: 'cube', component: () => import('../views/Samples/vtk/Cube.vue') },
+    ],
+  },
+  {
+    path: '/threejs',
+    component: () => import('../layouts/threeLayout.vue'),
+    children: [
+      { path: '', component: () => import('../views/StartPage.vue') },
+      { path: 'cube', component: () => import('../views/Samples/threejs/Cube.vue') },
     ],
   },
 ];

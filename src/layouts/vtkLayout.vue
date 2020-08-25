@@ -8,9 +8,9 @@
         <h-app-toolbar bg-color="bg-primary">
           <h-app-toolbar-container>
             <h-app-toolbar-navigation text-color="text-white" @click="showDrawer = !showDrawer"/>
-            <h-image avatar src="img/icons/vuejs.png" size="42px"/>
+            <h-image avatar src="img/icons/vtk.png" size="42px"/>
             <h-app-toolbar-title class="text-white">
-              Vue WEBGL
+              Vue Threejs
             </h-app-toolbar-title>
             <h-app-toolbar-action>
               <h-btn fab size="sm" bg-color="bg-transparent">
@@ -28,7 +28,7 @@
     <template #left>
       <div class="col-auto text-center h-pa-md">
         <div class="column align-items-center">
-          <h-image avatar src="img/icons/vuejs.png" size="64px"/>
+          <h-image avatar src="img/icons/vtk.png" size="64px"/>
           <div class="">WEBGL</div>
         </div>
       </div>
@@ -39,16 +39,16 @@
               <h-list-item-text title="Home Page" caption="Main page"/>
             </h-list-item-content>
           </h-list-item>
-          <h-list-item @click="$router.push('/vtk')">
+          <h-list-item @click="$router.push('/vtk/cube')">
             <h-list-item-content>
-              <h-list-item-text title="VTK" caption="VTK Samples"/>
+              <h-list-item-text title="Cube" caption="Cube Sample"/>
             </h-list-item-content>
           </h-list-item>
-          <h-list-item @click="$router.push('/threejs')">
+          <!-- <h-list-item @click="openURL('https://github.com/edutucci/hawkvuemdframework')">
             <h-list-item-content>
-              <h-list-item-text title="Threejs" caption="Three Samples"/>
+              <h-list-item-text title="Github" caption="Framework repository"/>
             </h-list-item-content>
-          </h-list-item>
+          </h-list-item> -->
         </h-list>
       </div>
       <div class="col-auto">
