@@ -8,7 +8,7 @@
         <h-app-toolbar bg-color="bg-primary">
           <h-app-toolbar-container>
             <h-app-toolbar-navigation text-color="text-white" @click="showDrawer = !showDrawer"/>
-            <h-image avatar src="img/icons/vuejs.png" size="42px"/>
+            <h-image avatar src="/img/icons/vuejs.png" size="42px"/>
             <h-app-toolbar-title class="text-white">
               Vue WEBGL
             </h-app-toolbar-title>
@@ -28,7 +28,7 @@
     <template #left>
       <div class="col-auto text-center h-pa-md">
         <div class="column align-items-center">
-          <h-image avatar src="img/icons/vuejs.png" size="64px"/>
+          <h-image avatar src="/img/icons/vuejs.png" size="64px"/>
           <div class="">WEBGL</div>
         </div>
       </div>
