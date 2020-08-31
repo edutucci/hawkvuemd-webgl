@@ -49,9 +49,9 @@
               <h-list-item-text title="Generic Window" caption="Generic Window Mode"/>
             </h-list-item-content>
           </h-list-item> -->
-          <h-list-item @click="$router.push('/vtk/cube')">
+          <h-list-item @click="$router.push('/vtk/cone')">
             <h-list-item-content>
-              <h-list-item-text title="Cube" caption="Cube Sample"/>
+              <h-list-item-text title="Cone" caption="Cone Sample"/>
             </h-list-item-content>
           </h-list-item>
           <!-- <h-list-item @click="openURL('https://github.com/edutucci/hawkvuemdframework')">
