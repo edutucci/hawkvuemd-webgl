@@ -39,6 +39,16 @@
               <h-list-item-text title="Home Page" caption="Main page"/>
             </h-list-item-content>
           </h-list-item>
+          <!-- <h-list-item @click="$router.push('/vtk/fullscreen')">
+            <h-list-item-content>
+              <h-list-item-text title="Full screen" caption="Full Screen Mode"/>
+            </h-list-item-content>
+          </h-list-item>
+          <h-list-item @click="$router.push('/vtk/genericWindow')">
+            <h-list-item-content>
+              <h-list-item-text title="Generic Window" caption="Generic Window Mode"/>
+            </h-list-item-content>
+          </h-list-item> -->
           <h-list-item @click="$router.push('/vtk/cube')">
             <h-list-item-content>
               <h-list-item-text title="Cube" caption="Cube Sample"/>

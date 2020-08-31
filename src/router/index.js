@@ -16,6 +16,8 @@ const routes = [
     component: () => import('../layouts/vtkLayout.vue'),
     children: [
       { path: '', component: () => import('../views/StartPage.vue') },
+      { path: 'fullscreen', component: () => import('../views/Samples/vtk/FullScreen.vue') },
+      { path: 'genericWindow', component: () => import('../views/Samples/vtk/GenericWindow.vue') },
       { path: 'cube', component: () => import('../views/Samples/vtk/Cube.vue') },
     ],
   },
